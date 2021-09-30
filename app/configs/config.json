@@ -1,0 +1,10 @@
+{
+    "Development": {
+        "HOST": "localhost",
+        "PORT": 7777
+    },
+    "Live": {
+        "HOST": "fill",
+        "PORT": 7777
+    }
+}
