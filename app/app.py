@@ -7,6 +7,9 @@ from app.controllers.contact import contact
 
 def create_app(env = "Development"):
     app = Flask(__name__)
+    #TODO: UPDATE SECRET KEY
+    app.config['SECRET_KEY'] = 'a secret key that needs to be edited later'
+    
     #load config values
     cfg_dict = None
     try:
